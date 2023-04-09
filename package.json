@@ -5,12 +5,14 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "fastpush": "git add . && git commit -m fastpush && git push origin main"
   },
   "private": true,
   "dependencies": {
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.10.0"
   },
   "devDependencies": {
     "@nrwl/cypress": "15.9.2",

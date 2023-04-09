@@ -1,16 +1,15 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.styl';
-
-import NxWelcome from './nx-welcome';
+import './app.module.styl';
 
 export function App() {
   return (
     <>
-      <NxWelcome title="playground-nx" />
-
-      <div />
+      <p className="display-1 text-center">Hello !</p>
+      <p className="text-center">
+        You are using Nx React Preset with TypeScript. Boostrap and Stylus for
+        CSS
+      </p>
+      <p className="text-center">Enjoy :)</p>
     </>
   );
 }
-
-export default App;
